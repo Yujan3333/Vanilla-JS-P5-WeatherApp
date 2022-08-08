@@ -6,3 +6,13 @@ body{
 .container{
     max-width: 400px;
 }
+
+.icon{
+    position:relative;
+    /* to take 50 pixel above */
+    top: -50px;
+    border-radius: 50%;
+    width: 100px;
+    /* to take everything below this 50px above */
+    margin-bottom: -50px;
+}
